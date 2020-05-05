@@ -1,5 +1,7 @@
 [![build status](https://github.com/brunoromeiro/2020-site/workflows/Build/badge.svg)](https://github.com/brunoromeiro/2020-site/actions)
 
+[![build status](https://github.com/brunoromeiro/2020-site/workflows/Test/badge.svg)](https://github.com/brunoromeiro/2020-site/actions)
+
 # NewSite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
