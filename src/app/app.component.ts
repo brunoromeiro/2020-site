@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+
+import {PoMenuItem} from '@po-ui/ng-components';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'new-site';
+
+  readonly menus: Array<PoMenuItem> = [
+    {label: 'Home', action: this.onClick.bind(this)}
+  ];
+
+  private onClick() {
+    alert('Clicked in menu item');
+  }
+
 }
