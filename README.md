@@ -1,4 +1,5 @@
 [![build status](https://github.com/brunoromeiro/2020-site/workflows/Build/badge.svg)](https://github.com/brunoromeiro/2020-site/actions)
+![ci](https://github.com/brunoromeiro/2020-site/workflows/ci/badge.svg)
 
 # NewSite
 
