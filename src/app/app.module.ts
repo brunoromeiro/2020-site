@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PoModule } from '@po-ui/ng-components';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -13,7 +12,6 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PoModule,
     RouterModule.forRoot([])
   ],
   providers: [],
